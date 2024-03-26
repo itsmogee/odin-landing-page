@@ -58,7 +58,13 @@ a {
 }
 
 .section-two {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  padding-top: 64px;
   background-color: #f9faf8;
+  padding-bottom: 172px;
 }
 
 button {
@@ -69,13 +75,36 @@ button {
   font-weight: 700;
 }
 
-.element {
-  border: 1px solid #3882f6;
-  width: 300px;
-  height: 300px;
+.element-container {
+  display: flex;
+  gap: 64px;
 }
 
-.section-four {
+.element {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 330px;
+  flex-wrap: wrap;
+  font-weight: 500;
+  font-size: 18px;
+  gap: 16px;
+}
+
+img {
+  border-radius: 20px;
+}
+
+.content-image {
+  border: 5px solid #3882f6;
+  border-radius: 25px;
+  width: 330;
+  /* height: 330; */
+  display: flex;
+  flex-direction: column;
+}
+
   background-color: #e5e7eb;
 }
 
@@ -99,11 +128,19 @@ button {
 .hero-main {
   font-size: 48px;
   font-weight: 800;
+  width: 500;
 }
 
 .hero-secondary {
   font-size: 18px;
-  margin: 10px;
+  margin: 15px;
   margin-left: 0px;
   max-width: 450px;
+}
+
+.information-header {
+  font-size: 36px;
+  font-weight: 800;
+  color: #1f2937;
+  margin-bottom: 50px;
 }

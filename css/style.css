@@ -105,7 +105,16 @@ img {
   flex-direction: column;
 }
 
+.section-three {
   background-color: #e5e7eb;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-four {
 }
 
 .card {

@@ -138,7 +138,14 @@ img {
 
 .card {
   background-color: #3882f6;
+  border-radius: 10px;
   color: #f9faf8;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 900px;
+  height: 150px;
+  padding: 10px;
 }
 
 .hero-container {
@@ -171,4 +178,42 @@ img {
   font-weight: 800;
   color: #1f2937;
   margin-bottom: 50px;
+}
+
+.section-four {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #f9faf8;
+}
+
+.call-action {
+  font-size: 26px;
+  font-weight: 900;
+  margin-bottom: 5px;
+}
+
+.actual-button {
+  border-color: #ffffff;
+  font-weight: bold;
+  width: 150px;
+  height: 50px;
+  margin-left: 15px;
+}
+
+.card-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.card-right {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  margin-left: 100px;
 }

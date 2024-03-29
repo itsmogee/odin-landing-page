@@ -1,4 +1,7 @@
-# odin-landing-page
+# Terrarium Landing Page
+
+A simple landing page project created as part of the Odin Project learning path.
+[The Odin Project](https://www.theodinproject.com)
 
 Photo by Katarzyna Modrzejewska: https://www.pexels.com/photo/clear-glass-terrarium-jar-with-mossy-plants-1400375/
 

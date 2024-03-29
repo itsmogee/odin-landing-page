@@ -217,3 +217,15 @@ img {
   flex-wrap: wrap;
   margin-left: 100px;
 }
+
+.footer {
+  display: flex;
+  flex-grow: 0;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  font-weight: 100;
+  margin-top: bottom;
+  height: 100px;
+  color: #f9faf8;
+}

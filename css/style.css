@@ -34,6 +34,28 @@ body {
   /* margin-left: auto; */
 }
 
+.three-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.quote {
+  display: flex;
+  font-style: italic;
+  color: #2f4967;
+  font-weight: 100;
+  width: 800px;
+  font-size: 36px;
+  flex-wrap: wrap;
+}
+
+.author {
+  display: flex;
+  font-weight: 900;
+  font-size: 26px;
+  margin-left: auto;
+}
+
 .header-logo {
   font-weight: 800;
 }
@@ -107,14 +129,11 @@ img {
 
 .section-three {
   background-color: #e5e7eb;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 150px;
+  padding-bottom: 150px;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.section-four {
 }
 
 .card {
